@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#header{
+	background-color: red;
+}
+#logo {
+	background-color: cork;
+}
+#header_info{
+	background-color: strawberry;
+}
+#header_bottom{
+	background-color: cyan;
+}
+#nav {
+	background-color: green;
+}
+#content {
+	background-color: pink;
+}
+#sidebar {
+	background-color: gray;
+}
+#footer {
+	background-color: lime;
+}
+

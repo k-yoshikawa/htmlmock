@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*=================================*/
+/*========== 基本設定 ==========*/
+/*=================================*/
+body{
+	width: 100%;
+	font-size: 12px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 960px;
+}
+a:link,
+a:visited,
+a:active{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #666;
+	text-decoration: underline;
+}
+img,
+a img{
+	border: none;
+}
+.clear{
+	clear: both;
+}
+/*=================================*/
+/*========== トップページ ==========*/
+/*=================================*/
+
+
+/*=================================*/
+/*========== ヘッダー ==========*/
+/*=================================*/
+#header{
+	overflow: hidden;
+	margin: 0 0 15px;
+}
+#logo {
+	width: 300px;
+	float: left;
+}
+#logo h1 span{
+	display: none;
+}
+#header_info{
+	width:600px;
+	float: right;
+}
+
+/*=================================*/
+/*========== グロナビ ==========*/
+/*=================================*/
+#nav{
+}
+#nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#nav li{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#nav li.last{
+	float: none;
+}
+/*========== 検索フォーム ==========*/
+#header_bottom{
+	overflow: hidden;
+}
+#mainvisual {
+	width: 400px;
+	float: left;
+}
+#search {
+	width: 300px;
+	float: right;
+}
+
+/*=================================*/
+/*========== コンテンツ ==========*/
+/*=================================*/
+#content {
+	width: 680px;
+	float: right;
+	overflow: hidden;
+}
+
+/*========== サブナビ ==========*/
+.subnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.subnav ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+/*=================================*/
+/*========== サイドバー ==========*/
+/*=================================*/
+#sidebar {
+	width: 260px;
+	float: left;
+	overflow: hidden;
+	margin: 0 20px 0 0;
+}
+#sidebar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*=================================*/
+/*========== フッター ==========*/
+/*=================================*/
+#footer {
+	clear: both;
+}
+#footer ul{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#footer ul li{
+	display: inline;
+	margin: 1em;
+}
+#footer .copyright{
+	text-align: center;
+}
